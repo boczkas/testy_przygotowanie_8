@@ -1,4 +1,4 @@
-package efs.task.unittests;
+package pakiet;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
