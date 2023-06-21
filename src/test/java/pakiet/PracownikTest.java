@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PracownikTest {
 
-    static Pracownik pracownik = new Pracownik("Tomek");
+    static Pracownik pracownik = new Pracownik("Daniel");
 
     Pracownik tomek;
 
@@ -57,8 +57,10 @@ public class PracownikTest {
 //    1.
     @Test
     public void zlyTest_zaleznoscOdSrodowiska() throws IOException {
-        // given
-        Path fileName = Path.of("C:/programy/task8_wprowadzenie/src/test/java/efs/task/unittests/test.txt");
+    // given
+    Path fileName =
+        Path.of(
+            "C:\\Users\\Przemyslaw_Jakubowsk\\IdeaProjects\\testy_przygotowanie_8\\src\\test\\java\\pakiet\\test.txt");
 
         // when
         String text = Files.readString(fileName);
@@ -69,8 +71,8 @@ public class PracownikTest {
 
     @Test
     public void dobryTest_niezaleznoscOdSrodowiska() throws IOException {
-        // given
-        Path fileName = Path.of(System.getProperty("user.dir") + "/src/test/java/efs/task/unittests/test.txt");
+    // given
+    Path fileName = Path.of(System.getProperty("user.dir") + "\\src\\test\\java\\pakiet\\test.txt");
 
         // when
         String text = Files.readString(fileName);

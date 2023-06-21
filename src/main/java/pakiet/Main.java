@@ -9,6 +9,11 @@ public class Main {
 //
 
 //         Cechy dobrego unit testu
+//          F - fast
+//          I - independent
+//          R - repeatable
+//          S - self validating
+//          T - timely/through
 
 //          1. nie zależy od środowiska na którym jest uruchamiany
 //          2. nie jest zależny od innych testów
